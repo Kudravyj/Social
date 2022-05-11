@@ -25,6 +25,10 @@
                         this.status = ! this.status;
                         console.log(response.data);
                     });
+            },
+            isfollowuser() {
+                axios.get('/isfollow/' + this.userId)
+                    .then()
             }
         }
     }

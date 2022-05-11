@@ -5268,6 +5268,9 @@ __webpack_require__.r(__webpack_exports__);
         _this.status = !_this.status;
         console.log(response.data);
       });
+    },
+    isfollowuser: function isfollowuser() {
+      axios.get('/isfollow/' + this.userId).then();
     }
   }
 });

@@ -9,7 +9,7 @@
                 <div class="card">
                     <div class="card-header">Public</div>
                     <div class="card-body">
-                        <form method="POST" action="/p" enctype="multipart/form-data" method="post">
+                        <form method="POST" action="/p" enctype="multipart/form-data">
                                 @csrf
                                 <div class="input p-5">
                                     <input id='caption'

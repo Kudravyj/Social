@@ -36,6 +36,7 @@
                             <div class="p-4">
                                 <p style="text-align: center;">Oh no, it seems like we didn't find anything :(</p>
                             </div>
+                            
                         @endif
                     </div>
                 </div>
